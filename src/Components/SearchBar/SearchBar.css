@@ -8,13 +8,11 @@
     border: 0;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
     border-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
     font-size: 18px;
     padding: 15px;
     height: 30px;
     width: 300px;
+    
   }
   
   .searchIcon {
@@ -23,8 +21,6 @@
     background-color: white;
     display: grid;
     place-items: center;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
   }
   
   input:focus {
