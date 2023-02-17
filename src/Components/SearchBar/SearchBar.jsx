@@ -10,9 +10,9 @@ function SearchBar({placeholder, data}) {
     const handleFilter = (event) => {
         const searchWord = event.target.value;
         setWordEntered(searchWord) 
-        const newFilter = data.filter((value) => {
-            return value.title.toLowerCase().includes(searchWord.toLowerCase());
-        });
+        const newFilter = 
+        ////finds match in the array of element properties
+            data.filter(item => {return Object.keys(item).some(key => item[key].toLowerCase().includes(searchWord.toLowerCase()));});
         
         if(searchWord === "") {
             setFilteredData([])
@@ -38,7 +38,7 @@ function SearchBar({placeholder, data}) {
             <div className="dataResult">
                 {filteredData.slice(0,15).map((value, key) => {
                     return <a className="dataItem" href={value.link} target="_blank">
-                        <p>{value.title}</p>
+                        <p>{value.style}</p>
                         </a>
                 })}
             </div>

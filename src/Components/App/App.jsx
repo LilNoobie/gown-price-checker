@@ -5,8 +5,7 @@ import SampleData from '../Data.json';
 import { BrowserRouter as Router, Switch, Routes, Route} from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
 import About from '../../Pages/About/About';
-import Dress from '../../Pages/Dress/Dress';
-import logo from './logo.svg';
+import DressDetails from '../../Pages/Dress/DressDetails';
 import Home from '../../Pages/Home/Home';
 
 
@@ -18,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/about" exact element={<About/>} />
-          <Route path="/:title" element={<Dress/>} />
+          <Route path="/:title" element={<DressDetails/>} />
         </Routes>
       </Router>
     </div>
