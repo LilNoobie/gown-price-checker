@@ -2,6 +2,7 @@ import React, { useState} from 'react';
 import './SearchBar.css';
 import SearchIcon from '@mui/icons-material/Search';
 import CloseIcon from '@mui/icons-material/Close';
+import { Link } from 'react-router-dom'
 
 function SearchBar({placeholder, data}) {
     const [filteredData, setFilteredData] = useState([]);
@@ -11,7 +12,7 @@ function SearchBar({placeholder, data}) {
         const searchWord = event.target.value;
         setWordEntered(searchWord) 
         const newFilter = 
-        ////finds match in the array of element properties
+        //finds match in the array of element properties
             data.filter(item => {return Object.keys(item).some(key => item[key].toLowerCase().includes(searchWord.toLowerCase()));});
         
         if(searchWord === "") {
@@ -37,9 +38,13 @@ function SearchBar({placeholder, data}) {
             {filteredData.length != 0 && (
             <div className="dataResult">
                 {filteredData.slice(0,15).map((value, key) => {
-                    return <a className="dataItem" href={value.link} target="_blank">
+                    return (
+                        <Link to={`/dress/${value.style}`}>
+                        <a className="dataItem" target="_blank">
                         <p>{value.style}</p>
                         </a>
+                    </Link>
+                    )
                 })}
             </div>
             )}

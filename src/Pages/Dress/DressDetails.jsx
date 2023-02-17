@@ -4,10 +4,10 @@ import {Link, useParams} from 'react-router-dom';
 
 function Dress() {
   const [dress, setDress] = useState([]);
-  const {title} = useParams();
+  const {style} = useParams();
 
   return (
-    <div className="dressName">{title}</div>
+    <div className="dressName">Dress Style - {style}</div>
   )
 }
 

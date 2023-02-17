@@ -1,6 +1,6 @@
 [
     {
-      "designer": "Berta",
+      "designer": "Muse by Berta",
       "style": "Ivone",
       "imageLink": "images/things-fall-apart.jpg",
       "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n"
@@ -30,6 +30,34 @@
     {
       "designer": "Galina",
       "style": "SWG834",
+      "imageLink": "images/things-fall-apart.jpg",
+      "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n"
+    },
+
+    {
+      "designer": "Muse by Berta",
+      "style": "Ida",
+      "imageLink": "images/things-fall-apart.jpg",
+      "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n"
+    },
+
+    {
+      "designer": "Muse by Berta",
+      "style": "Inbar",
+      "imageLink": "images/things-fall-apart.jpg",
+      "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n"
+    },
+
+    {
+      "designer": "Muse by Berta",
+      "style": "Isabel",
+      "imageLink": "images/things-fall-apart.jpg",
+      "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n"
+    },
+
+    {
+      "designer": "Muse by Berta",
+      "style": "Ines",
       "imageLink": "images/things-fall-apart.jpg",
       "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n"
     }
