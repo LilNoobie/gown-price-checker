@@ -26,6 +26,8 @@
     -webkit-background-clip: text;
     background-clip: text;
     font-size: calc(8px + 1vmin);
+    display: flex;
+    align-items: center;
   }
 
   .links a:hover {
