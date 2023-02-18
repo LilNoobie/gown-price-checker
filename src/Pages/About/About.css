@@ -1,0 +1,44 @@
+* {
+}
+
+.box {
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutBox {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutTitle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: calc(13px + 2vmin);
+
+}
+
+.aboutText {
+    font-size: calc(7px + 1vmin);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#black {
+    color: black;
+}
+
+#pink {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, rgba(214,118,118,1) 0%, rgba(205,152,183,1) 100%, rgba(255,255,255,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}

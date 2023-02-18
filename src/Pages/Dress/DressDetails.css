@@ -1,0 +1,35 @@
+
+.dress {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1vmin);
+    color: #695861;
+}
+
+.dressInfo {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.dressName {
+    align-items: flex-start;
+    justify-content:start
+}
+
+.dressName h1 {
+    padding: 0px;
+    align-items: flex-start;
+}
+
+
+.dressImage {
+    padding-right: 20px;
+}
+
+#sampleImage {
+    width: 380px;
+}
