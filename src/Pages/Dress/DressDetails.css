@@ -1,35 +1,74 @@
+*{
+
+}
+
+
 
 .dress {
     min-height: 100vh;
+    width: 50vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 1vmin);
     color: #695861;
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: row;
 }
 
 .dressInfo {
     text-align: left;
     display: flex;
     flex-direction: column;
-    
+    padding: 20px;
+    justify-content: center;
 }
 
 .dressName {
     align-items: flex-start;
-    justify-content:start
+    justify-content:start;
 }
 
 .dressName h1 {
-    padding: 0px;
+    padding: 0px auto;
     align-items: flex-start;
+    font-size: 35px;
 }
 
+.dressName h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -25px;
+}
 
 .dressImage {
     padding-right: 20px;
 }
 
+.price {
+    font-size: 20px;
+}
+
+.dataBox {
+    display: flex;
+}
+
+.dataPoints {
+    display: flex;    
+    padding-left: 4px;
+}
+
+.dataPoints p {
+    display: flex;
+    margin: 2px;
+}
+
+.form {
+    margin-top: 50px;
+}
+
 #sampleImage {
-    width: 380px;
+    width: 320px;
 }
