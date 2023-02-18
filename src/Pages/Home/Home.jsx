@@ -6,13 +6,16 @@ import './Home.css'
 function Home() {
   return (
     <header className="App-header">
-    <p className="header-text">
-      What gown are you looking for?
-    </p>
-      <div>
-        <SearchBar placeholder="Enter brand or name" data={SampleData}  />
+      <div className="homeBox">
+        <p className="header-text">
+          What gown are you looking for?
+        </p>
+
+        <div className="searchBar">
+          <SearchBar placeholder="Enter brand or name" data={SampleData} />
+        </div>
       </div>
-  </header>
+    </header>
   )
 }
 

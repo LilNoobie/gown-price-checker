@@ -1,10 +1,5 @@
-* {
-}
-
 .box {
     width: 50vw;
-    justify-content: center;
-    align-items: center;
 }
 
 .aboutBox {
@@ -21,7 +16,6 @@
     text-align: center;
     justify-content: center;
     font-size: calc(13px + 2vmin);
-
 }
 
 .aboutText {
@@ -29,6 +23,7 @@
     display: flex;
     text-align: center;
     justify-content: center;
+    margin-top: -20px;
 }
 
 

@@ -1,17 +1,32 @@
-  .App-header {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: #695861;
-  }
-  
-  .header-text {
-    font-weight: 800;
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(90deg, rgba(214,118,118,1) 0%, rgba(205,152,183,1) 100%, rgba(255,255,255,1) 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
+.homeBox {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-header {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #695861;
+}
+
+.header-text {
+  font-size: calc(38px + 2vmin);
+  font-weight: 800;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, rgba(214, 118, 118, 1) 0%, rgba(205, 152, 183, 1) 100%, rgba(255, 255, 255, 1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+}
