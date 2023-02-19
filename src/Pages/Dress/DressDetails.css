@@ -67,3 +67,8 @@
 #sampleImage {
     width: 320px;
 }
+
+#here {
+    color: rgb(211, 168, 175);
+    font-weight: 600;
+}

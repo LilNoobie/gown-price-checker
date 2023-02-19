@@ -2,11 +2,17 @@ import React from 'react';
 import './Form.css'
 
 function Form() {
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        
+    }
+
+
     return (
         <div className="form">
             <div className="addDress">
                 <h2>Add a New Dress</h2>
-                <form>
+                <form onSubmit={handleSubmit}>
                     <label>Dress Name*</label>
                     <input
                         type="text"
@@ -23,6 +29,7 @@ function Form() {
                         type="number"
                         min="0"
                         max="100000"
+                        step=".01"
                         placeholder="in USD"
                         required
                     />

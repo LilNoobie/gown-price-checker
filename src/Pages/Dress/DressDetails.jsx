@@ -33,7 +33,10 @@ function DressDetails() {
           </div>
 
           <div className="formLink">
-            Know the price? <br></br>Share it here.
+            Know the price? <br></br>Share it
+            <Link to={`/form`}>
+            <span id="here"> here</span>.
+            </Link>
           </div>
         </div>
       </div>
