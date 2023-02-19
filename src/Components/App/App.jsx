@@ -7,6 +7,7 @@ import Navbar from '../Navbar/Navbar';
 import About from '../../Pages/About/About';
 import DressDetails from '../../Pages/Dress/DressDetails';
 import Home from '../../Pages/Home/Home';
+import Form from '../Form/Form';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/about" exact element={<About/>} />
           <Route path="/dress/:style" element={<DressDetails/>} />
+          <Route path="/form" element={<Form/>} />
         </Routes>
       </Router>
     </div>

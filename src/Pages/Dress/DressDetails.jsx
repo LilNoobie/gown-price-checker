@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import SampleData from '../../Components/Data.json';
 import { Link, useParams } from 'react-router-dom';
-import './DressDetails.css';
 import SampleImage from '../../assets/ines.jpg';
 import Tooltip from '@mui/material/Tooltip';
+import './DressDetails.css'
 
-<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1"></meta>
 function DressDetails() {
   const { style } = useParams();
 
@@ -33,7 +32,7 @@ function DressDetails() {
             </div>
           </div>
 
-          <div className="form">
+          <div className="formLink">
             Know the price? <br></br>Share it here.
           </div>
         </div>
@@ -43,5 +42,5 @@ function DressDetails() {
 };
 
 
-export default DressDetails
+export default DressDetails;
 

@@ -15,7 +15,7 @@ function About() {
             hours pinning inspos and googling designers. We fall in love with multiple dresses, but we never really know how much
             they cost until we step into a shop. 
             
-            <br></br><br></br>It's 2023, let's change that.
+            <br></br><br></br>It's 2023, let's help each other and change that.
             <br></br> </p>
         </div>
       </div>

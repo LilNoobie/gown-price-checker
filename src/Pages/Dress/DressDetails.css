@@ -1,11 +1,6 @@
-*{
-
-}
-
-
 
 .dress {
-    min-height: 100vh;
+    height: 100vh;
     width: 50vw;
     display: flex;
     align-items: center;
@@ -34,7 +29,7 @@
 .dressName h1 {
     padding: 0px auto;
     align-items: flex-start;
-    font-size: 35px;
+    font-size: calc(20px + 2vmin)
 }
 
 .dressName h2 {
@@ -65,7 +60,7 @@
     margin: 2px;
 }
 
-.form {
+.formLink {
     margin-top: 50px;
 }
 

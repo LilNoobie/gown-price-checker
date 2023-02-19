@@ -1,0 +1,35 @@
+* {
+}
+
+.form {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+   
+}
+
+.form h2 {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, rgba(214,118,118,1) 0%, rgba(205,152,183,1) 100%, rgba(255,255,255,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: calc(38px + 2vmin);
+}
+
+.form label {
+    text-align: right;
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.form input,
+select {
+    display: inline-block;
+    width: 400px;
+    color: #695861;
+}
