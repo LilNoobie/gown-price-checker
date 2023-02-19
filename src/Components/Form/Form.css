@@ -1,5 +1,4 @@
-* {
-}
+* {}
 
 .form {
     width: 50vw;
@@ -8,12 +7,12 @@
     align-items: center;
     justify-content: center;
     font-weight: 400;
-   
+
 }
 
 .form h2 {
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(90deg, rgba(214,118,118,1) 0%, rgba(205,152,183,1) 100%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(214, 118, 118, 1) 0%, rgba(205, 152, 183, 1) 100%, rgba(255, 255, 255, 1) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     font-size: calc(38px + 2vmin);
@@ -32,4 +31,36 @@ select {
     display: inline-block;
     width: 400px;
     color: #695861;
+    border: none;
+    border-bottom: solid 1px #f4e7ee;
+}
+
+.form p {
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0px;
+    color: lightslategray;
+    font-style: italic;
+}
+
+.form button {
+    text-decoration: none;
+    border: none;
+    padding: 10px 35px;
+    font-size: 16px;
+    background: linear-gradient(90deg, rgba(214, 118, 118, 1) 0%, rgba(205, 152, 183, 1) 100%, rgba(255, 255, 255, 1) 100%);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s all;
+}
+
+.form button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
 }

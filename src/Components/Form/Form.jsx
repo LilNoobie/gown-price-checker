@@ -7,18 +7,18 @@ function Form() {
             <div className="addDress">
                 <h2>Add a New Dress</h2>
                 <form>
-                    <label>Dress Name</label>
+                    <label>Dress Name*</label>
                     <input
                         type="text"
                         required
                     /><br></br>
-                    <label>Designer</label>
+                    <label>Designer*</label>
                     <input
                         type="text"
                         required
                     />
                     <br></br>
-                    <label>Price</label>
+                    <label>Price*</label>
                     <input
                         type="number"
                         min="0"
@@ -91,8 +91,7 @@ function Form() {
                         <option value="WV">West Virginia</option>
                         <option value="WI">Wisconsin</option>
                         <option value="WY">Wyoming</option>
-                        <br></br>
-                    </select><br></br>
+                    </select><p>* Required</p>
                 <button>Submit</button>
                 </form>
             </div>
