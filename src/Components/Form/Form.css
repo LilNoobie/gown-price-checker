@@ -32,7 +32,7 @@ select {
     width: 400px;
     color: #695861;
     border: none;
-    border-bottom: solid 1px #f4e7ee;
+    border-bottom: dotted 1px #f4e7ee;
 }
 
 .form p {
