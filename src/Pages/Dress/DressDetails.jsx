@@ -12,7 +12,7 @@ function DressDetails() {
     <div className="dress">
       <div className="infoBox">
         <div className="dressImage">
-          <img src={SampleImage} id="sampleImage" alt="sample image"/>
+          <img src={SampleImage} id="sampleImage" alt="sample"/>
         </div>
 
         <div className="dressInfo">
