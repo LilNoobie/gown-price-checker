@@ -54,15 +54,15 @@
     font-size: 12px;
   }
   
-  .dataItem p {
-    margin-left: 10px;
+  #styleName {
+    margin-left: 15px;
   }
   
   a {
     text-decoration: none;
   }
   
-  a:hover {
+  p:hover {
     background-color: lightgrey;
   }
   
