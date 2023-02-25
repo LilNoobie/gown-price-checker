@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import SampleData from '../../Components/Data.json';
+import React from 'react';
+// import SampleData from '../../Components/Data.json';
 import { Link, useParams } from 'react-router-dom';
 import SampleImage from '../../assets/ines.jpg';
 import Tooltip from '@mui/material/Tooltip';
@@ -12,7 +12,7 @@ function DressDetails() {
     <div className="dress">
       <div className="infoBox">
         <div className="dressImage">
-          <img src={SampleImage} id="sampleImage" />
+          <img src={SampleImage} id="sampleImage" alt="sample image"/>
         </div>
 
         <div className="dressInfo">

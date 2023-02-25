@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css'
-import SearchBar from '../SearchBar/SearchBar';
-import SampleData from '../Data.json';
-import { BrowserRouter as Router, Switch, Routes, Route} from 'react-router-dom';
+// import SearchBar from '../SearchBar/SearchBar';
+// import SampleData from '../Data.json';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
 import About from '../../Pages/About/About';
 import DressDetails from '../../Pages/Dress/DressDetails';

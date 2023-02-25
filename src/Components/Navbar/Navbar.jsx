@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import './Navbar.css'
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import { fontSize } from "@mui/system";
 
 function Navbar() {
     return (
