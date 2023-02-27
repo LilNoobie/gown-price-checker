@@ -35,15 +35,6 @@ select {
     border-bottom: dotted 1px #f4e7ee;
 }
 
-.form p {
-    font-size: 10px;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 0px;
-    color: lightslategray;
-    font-style: italic;
-}
-
 .form button {
     text-decoration: none;
     border: none;
@@ -67,4 +58,20 @@ select {
 
 input:focus {
     border-color: rgb(211, 168, 175);
+}
+
+#successMessage{
+     color: rgb(176, 138, 144);
+     font-size: 14px;
+     margin-top: -10px;
+     visibility: hidden;
+}
+
+#required {
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0px;
+    color: lightslategray;
+    font-style: italic;
 }

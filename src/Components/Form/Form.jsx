@@ -4,9 +4,8 @@ import './Form.css'
 function Form() {
     const handleSubmit = (e) => {
         e.preventDefault();
-        
+        document.getElementById("successMessage").style.visibility = "visible";
     }
-
 
     return (
         <div className="form">
@@ -98,8 +97,9 @@ function Form() {
                         <option value="WV">West Virginia</option>
                         <option value="WI">Wisconsin</option>
                         <option value="WY">Wyoming</option>
-                    </select><p>* Required</p>
-                <button>Submit</button>
+                    </select><p id="required">* Required</p>
+                    <p id="successMessage">Your submission is under review. Thanks for helping a bride out!</p>
+                <button type="submit">Submit</button>
                 </form>
             </div>
         </div>
