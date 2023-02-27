@@ -5,13 +5,18 @@ function Form() {
     const handleSubmit = (e) => {
         e.preventDefault();
         document.getElementById("successMessage").style.visibility = "visible";
+        document.querySelector("form").reset();
+    }
+
+    const handleChange = (e) => {
+        document.getElementById("successMessage").style.visibility = "hidden";
     }
 
     return (
         <div className="form">
             <div className="addDress">
                 <h2>Add a New Dress</h2>
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit} onChange={handleChange}>
                     <label>Dress Name*</label>
                     <input
                         type="text"
